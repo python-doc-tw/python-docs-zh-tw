@@ -25,19 +25,19 @@ Python 發行版本時，也將會將翻譯滾動至新的版本。
 如何參加翻譯
 ------------
 
-實際的翻譯即為修改 po 檔，流程遵照標準的 **GitHub Flow**，請 fork 此專案並在您
+實際的翻譯即為修改 po 檔，流程遵照標準的 **GitHub Flow**，請 fork 此專案並在您
 自己的 fork 裡新增一個 branch，修改 po 檔內容並 commit、push 以後對此專案發出
 pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6），至少有一人
 審查過翻譯以後，才可以 merge 進入此 repository 中。
 
-在對任何檔案進行貢獻之前，請先在本專案**新增一個 issue**，註明您正在翻譯的頁面
+在對任何檔案進行貢獻之前，請先在本專案\ **新增一個 issue**，註明您正在翻譯的頁面
 名稱，並將該 issue **assign 給自己**，讓大家知道您正在修改該頁面，以避免多人
-同時貢獻同一個檔案的衝突。
+同時貢獻同一個檔案的衝突。
 
 編輯 po 檔的方式主要可以分為兩種，以 Transifex 作為工具或是使用其他翻譯工具：
 
 1. 使用 Transifex 作為翻譯工具
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 您可以註冊 Transifex 帳號並加入我們的 `Transifex 專案
 <https://www.transifex.com/python-tw-doc/python-36-tw>`_，並且在上面
@@ -56,7 +56,7 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 .. _gettext: https://www.gnu.org/software/gettext/
 
 2. 使用其他翻譯工具
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 使用 Transifex 並非強迫性，您可以使用其他翻譯工具，如：
 
@@ -82,13 +82,13 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 執行完 ``poindent`` 以後即可 commit、push 等。
 
 授權與 License
---------------
+==============
 
-以下為 Documentation Contribution Agreement，說明文件貢獻協議，請在貢獻以前
+以下為 Documentation Contribution Agreement，說明文件貢獻協議，請在貢獻以前\
 務必詳讀以下內容。（後面有中文翻譯）
 
 Documentation Contribution Agreement
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------
 
 NOTE REGARDING THE LICENSE FOR TRANSLATIONS: Python's documentation is
 maintained using a global network of volunteers. By posting this
@@ -109,10 +109,8 @@ Python community is welcomed and appreciated.
 You signify acceptance of this agreement by submitting your work to
 the PSF for inclusion in the documentation.
 
-中文翻譯
-^^^^^^^^
-
-（可能有些許偏差，請以上面的原文為標準）
+中文翻譯（請盡量以原文為準）
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 請注意此予翻譯專案的授權：Python 的說明文件是以全球的志工社群來維護。透過張貼
 此專案在 Transifex、GitHub 以及其他公眾場合，以及邀請您參與，我們向您提出一個
@@ -127,7 +125,7 @@ the PSF for inclusion in the documentation.
 
 
 問題回報與討論
---------------
+==============
 
 對於翻譯有任何問題，請開設一個新的 Issue_。討論使用 Telegram_。
 
@@ -136,7 +134,7 @@ the PSF for inclusion in the documentation.
 
 
 Acknowledgement
----------------
+===============
 
 This translation project is highly influenced by python-doc-ja_ and
 python-doc-fr_'s translation architecture and workflow (i.e. a shameless
