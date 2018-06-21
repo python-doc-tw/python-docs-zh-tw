@@ -13,7 +13,7 @@ Python 發行版本時，也將會將翻譯滾動至新的版本。
 
 在 Wiki_ 中有更多關於參加翻譯、翻譯風格規範、自行編譯文件等說明。
 
-想問問題、認識翻譯同好，歡迎加入 Telegram 聊天室 t.me/PyDocTW_
+想問問題、認識翻譯同好，歡迎加入 Telegram 聊天室 `t.me/PyDocTW`_
 
 .. _Wiki: https://github.com/python-doc-tw/python-docs-zh-tw/wiki
 .. _t.me/PyDocTW: https://t.me/PyDocTW
@@ -141,3 +141,6 @@ Acknowledgement
 This translation project is highly influenced by python-doc-ja_ and
 python-doc-fr_'s translation architecture and workflow (i.e. a shameless
 copy). We truly appreciate their contributions.
+
+.. _python-doc-ja: https://github.com/python-doc-ja/python-doc-ja
+.. _python-doc-fr: https://github.com/python/python-docs-fr
