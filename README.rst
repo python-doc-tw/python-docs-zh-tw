@@ -2,7 +2,7 @@
 Python 官方說明文件臺灣繁體中文翻譯計畫
 =======================================
 
-本 GitHub repository 含有 Python 官方說明文件的 zh_TW 翻譯。實際的翻譯內容
+本 GitHub repository 含有 Python 官方說明文件的 zh_TW 翻譯。實際的翻譯內容\
 在這個 repository 裡以 Python 的穩定發行版本作為 branch 名稱，請參考 3.6 等
 branch 以查看目前的翻譯內容。此 master branch 則為專案的貢獻說明。
 
@@ -25,13 +25,13 @@ Python 發行版本時，也將會將翻譯滾動至新的版本。
 如何參加翻譯
 ------------
 
-實際的翻譯即為修改 po 檔，流程遵照標準的 **GitHub Flow**，請 fork 此專案並在您
+實際的翻譯即為修改 po 檔，流程遵照標準的 **GitHub Flow**，請 fork 此專案並在您\
 自己的 fork 裡新增一個 branch，修改 po 檔內容並 commit、push 以後對此專案發出
-pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6），至少有一人
+pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6），至少有一人\
 審查過翻譯以後，才可以 merge 進入此 repository 中。
 
-在對任何檔案進行貢獻之前，請先在本專案\ **新增一個 issue**，註明您正在翻譯的頁面
-名稱，並將該 issue **assign 給自己**，讓大家知道您正在修改該頁面，以避免多人
+在對任何檔案進行貢獻之前，請先在本專案\ **新增一個 issue**，註明您正在翻譯的頁面\
+名稱，並將該 issue **assign 給自己**，讓大家知道您正在修改該頁面，以避免多人\
 同時貢獻同一個檔案的衝突。
 
 編輯 po 檔的方式主要可以分為兩種，以 Transifex 作為工具或是使用其他翻譯工具：
@@ -40,8 +40,8 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 您可以註冊 Transifex 帳號並加入我們的 `Transifex 專案
-<https://www.transifex.com/python-tw-doc/python-36-tw>`_，並且在上面
-編輯您所要翻譯的頁面，並且在您本機上透過 command line 從此專案的 clone 的
+<https://www.transifex.com/python-tw-doc/python-36-tw>`_，並且在上面\
+編輯您所要翻譯的頁面，並且在您本機上透過 command line 從此專案的 clone 的\
 根目錄位置執行以下指令：
 
 .. code-block:: bash
@@ -112,13 +112,13 @@ the PSF for inclusion in the documentation.
 中文翻譯（請盡量以原文為準）
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-請注意此予翻譯專案的授權：Python 的說明文件是以全球的志工社群來維護。透過張貼
-此專案在 Transifex、GitHub 以及其他公眾場合，以及邀請您參與，我們向您提出一個
-協議：您必須將您對於 Python 說明文件或是 Python 說明文件翻譯的貢獻以 CC0
-（請參考 https://creativecommons.org/publicdomain/zero/1.0/legalcode）的方式
+請注意此予翻譯專案的授權：Python 的說明文件是以全球的志工社群來維護。透過張貼\
+此專案在 Transifex、GitHub 以及其他公眾場合，以及邀請您參與，我們向您提出一個\
+協議：您必須將您對於 Python 說明文件或是 Python 說明文件翻譯的貢獻以 CC0\
+（請參考 https://creativecommons.org/publicdomain/zero/1.0/legalcode）的方式\
 授權給 PSF 使用。您可以公開地聲明您所貢獻翻譯的部分，並且如果您的翻譯被 PSF
 採用，您可以（但並不須要）送出一個修改，其包含在 Misc/ACKS 或是 TRANSLATORS
-檔案裡增加合適的注釋。雖然這個說明文件貢獻協議並沒有說明 PSF 有義務納入您的
+檔案裡增加合適的注釋。雖然這個說明文件貢獻協議並沒有說明 PSF 有義務納入您的\
 文本貢獻，您在 Python 社群的參與是受歡迎且受感激的。
 
 您在對 PSF 送出說明文件貢獻的同時，即表示同意上述的協議。
