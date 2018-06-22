@@ -95,6 +95,13 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 您也可以透過此 email 聯繫：``adrianliaw2000 at gmail dot com``。
 
 
+額外翻譯資源
+------------
+
+- Telegram group `t.me/PyDocTW`_
+- `Doc-SIG mailing list<https://mail.python.org/mailman/listinfo/doc-sig>`_
+
+
 授權與 License
 ==============
 
