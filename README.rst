@@ -91,7 +91,7 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 .. _Issue: https://github.com/python-doc-tw/python-docs-zh-tw/issues
 .. _Telegram: https://t.me/PyDocT
 
-另外，此翻譯的領導人為 `adrianliaw<https://github.com/adrianliaw>`_，\
+另外，此翻譯的 coordinator 為 `adrianliaw <https://github.com/adrianliaw>`_，\
 您也可以透過此 email 聯繫：``adrianliaw2000 at gmail dot com``。
 
 
@@ -99,7 +99,7 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 ------------
 
 - Telegram group `t.me/PyDocTW`_
-- `Doc-SIG mailing list<https://mail.python.org/mailman/listinfo/doc-sig>`_
+- `Doc-SIG mailing list <https://mail.python.org/mailman/listinfo/doc-sig>`_
 
 
 授權與 License
