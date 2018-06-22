@@ -100,6 +100,10 @@ pull request（記得 base 是此專案的其中一個 branch；目前只有 3.6
 
 - Telegram group `t.me/PyDocTW`_
 - `Doc-SIG mailing list <https://mail.python.org/mailman/listinfo/doc-sig>`_
+- `PEP 545 <https://www.python.org/dev/peps/pep-0545/>`_
+- 我們的 `Transifex 專案 <https://www.transifex.com/python-tw-doc/>`_
+- 我們在 Transifex 上的 `Glossary
+  <https://www.transifex.com/python-tw-doc/python-36-tw/glossary/zh-Hant/>`_
 
 
 授權與 License
