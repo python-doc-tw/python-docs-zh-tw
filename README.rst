@@ -180,6 +180,85 @@ po 檔皆為首要的翻譯對象。您也可以幫忙校對已經翻譯過的�
    ``dict``、``set``、``iterator``、``generator``、``iterable``
 
 
+括號的使用
+~~~~~~~~~~
+
+如果括號中的文字包含中文，使用全形括號；如果括號中只有英文，使用半形括號並\
+比照英文的形式加入前後文的空白。
+
+例如：
+
+- list（串列）是 Python 中很常見的資料型別。
+- 在本情況使用 ``zip(*[iter(x)]*n)`` 是很常見的情況（Python 慣例）。
+- 在超文件標示語言 (HTML) 中應注意跳脫符號。
+
+rST 語法注意事項
+~~~~~~~~~~~~~~~~
+
+- ``:xxx:`...``` 即為 rST 的語法，應該在譯文中保留。
+- rST 諸多語法需要保留前後的空白。在中文裡，該空白可以用 :literal:`\\\  \ `
+  來取代，製造一個沒有寬度的分隔符號。
+
+  例如：
+
+  .. code-block:: rst
+
+    For more information, please see :ref:`detail-instruction`.
+
+  翻譯為
+
+  .. code-block:: rst
+
+    更多資訊請參考\ :ref:`detail-instruction`\ 。
+
+- 超連結語法該要在譯文中保留原字串。
+
+  例如：
+
+  .. code-block:: rst
+
+    `Documentation bugs`_ on the Python issue tracker
+
+  應更改為
+
+  .. code-block:: rst
+
+    Python issue tracker 上\ `文件相關的錯誤 <Documentation bugs_>`_
+
+  才能正確顯示為「Python issue tracker 上\ `文件相關的錯誤 <#>`_」，連結與\
+  前文才不會有多餘的空白。
+
+- 舉例中有程式碼時，前一段經常為 ``::`` 結尾，此記號\ `具有特殊意義
+  <http://www.sphinx-doc.org/en/stable/rest.html#source-code>`_，除了該段落\
+  結尾為冒號外，也代表下段縮排為程式碼。翻譯時應改為全型冒號，並\ **增加以**
+  ``::`` **開頭的新段落**。
+
+  例如：
+
+  .. code-block:: rst
+
+    Here is a code example::
+
+      import sys
+      print(sys.version)
+
+  程式碼並不會出現在 po 檔之中，故在 po 檔中會顯示為
+
+  .. code-block:: rst
+
+    Here is a code example::
+
+  此時翻譯應為：
+
+  .. code-block:: rst
+
+    以下是個程式範例：
+
+    ::
+
+  注意\ **額外的空行是必須的**。
+
+
 術語表 Glossary
 ---------------
 
